@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55000000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/viewpager_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#55000000"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/screenshot_20151204_115039"/>
+
+    <TextView
+        android:id="@+id/viewpager_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center|left"
+        android:textColor="#fff"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:maxLines="2"
+        android:text="家居安静安静安静安静"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

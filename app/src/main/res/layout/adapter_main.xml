@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/adapter_cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="15dp"
+    android:background="#fff"
+    app:cardCornerRadius="4dp"
+    android:fitsSystemWindows="true"
+    app:cardMaxElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+       android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="更多的精彩内容请关注啊大家圣诞节啊加速度计加上多久啊 "
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:id="@+id/adapter_dsc"
+            android:gravity="left"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/adapter_imageview"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/screenshot_20151204_115039"
+            android:id="@+id/adapter_imageview" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

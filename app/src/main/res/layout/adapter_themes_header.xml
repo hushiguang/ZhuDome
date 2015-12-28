@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:background="#55000000"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/adapter_themes_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#55000000"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/screenshot_20151204_115039" />
+
+        <TextView
+            android:id="@+id/adapter_themes_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:gravity="center|left"
+            android:maxLines="2"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="家居安静安静安静安静"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center|left"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text="主编"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/adapter_themes_man"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginLeft="15dp"
+            android:id="@+id/adapter_themes_linear"
+            android:layout_toRightOf="@+id/adapter_themes_man"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
